@@ -44,6 +44,33 @@
                 }
             },
             "response":[]
+        },
+        
+            {
+                "name":"update",
+                "request":{
+                    "method":"PUT",
+                    "header":[],
+                    "url":{
+                    "mode":"raw",
+                    "raw": "  {\r\n        \"_id\": \"57030230cds03234607bdf\",\r\n        \"firstname\": \"Mishel\",\r\n        \"lastname\": \"Perera\",\r\n        \"gender\": \"Male\",\r\n        \"dateofbirth\": \"1997.08.16\",\r\n        \"password\": \"2345\",\r\n        \"phonenumber\": 456467567,\r\n        \"email\": \"Pereraittec6@gmail.com\",\r\n        \"__v\": 0\r\n    }",
+                    "option":{
+                        "raw":{
+                            "language":"json"
+                        }
+                    } 
+                },
+                "url":{
+                    "raw":"http://locolhost:4000/account",
+                    "protocol":"http",
+                    "host":[
+                        "localhost"
+                    ],
+                    "port":"4000",
+                    "path":["account"]
+                }
+            }   
+                    
         }
 
     ]
