@@ -29,6 +29,22 @@
                 }
             },
             "response":[]
+        },
+        {
+            "name":"delete",
+            "request":{
+                "method":"DELETE",
+                "header":[],
+                "url":{
+                    "raw":"http://locolhost:4000/account",
+                    "protocol": "http",
+                    "host": [ "localhost"],
+                    "port":"4000",
+                    "path":["account"]
+                }
+            },
+            "response":[]
         }
+
     ]
 }
