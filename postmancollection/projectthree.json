@@ -1,0 +1,34 @@
+{
+    "human":[
+        {
+            "name":"getAll",
+            "request":{
+                "method":"GET",
+                "header":[],
+                "url": {
+                    "raw": "http://locolhost:4000/account",
+                    "protocol": "http",
+                    "host": [ "localhost"],
+                    "port":"4000",
+                    "path":["account"]
+                }
+            },
+            "response" : []
+        },
+        {
+            "name":"post",
+            "request":{
+                "method":"POST",
+                "header":[],
+                "url":{
+                    "raw":"http://locolhost:4000/account",
+                    "protocol": "http",
+                    "host": [ "localhost"],
+                    "port":"4000",
+                    "path":["account"]
+                }
+            },
+            "response":[]
+        }
+    ]
+}
