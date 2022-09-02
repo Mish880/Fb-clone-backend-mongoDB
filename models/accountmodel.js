@@ -17,5 +17,18 @@ const accountCreateSchema = new mongose.Schema({
         type:String,
         required:true
      },
-     
+     password:{
+        type:String,
+        required:true
+     },
+     phonenumber:{
+        type:Number,
+        required:true
+     },
+     email:{
+        type:String,
+        required:true
+     }
+
 })
+module.exports = mongose.model('Account',accountCreateSchema)
